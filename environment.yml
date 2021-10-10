@@ -1,0 +1,14 @@
+name: zoom
+channels:
+        - defaults
+dependencies:
+        - requests
+        - ipykernel
+        - Authlib
+        - pandas
+        - numpy
+        - pip
+        - pylint
+        - pip: 
+          - google-api-python-client
+          - python-decouple
